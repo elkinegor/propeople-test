@@ -5,10 +5,8 @@ description =
 version = 1.0
 core = 7.x
 
-stylesheets[all][] = css/style.css
-
+stylesheets[all][] = stylesheets/style.css
 scripts[] = js/script.js
-
 
 regions[header]          = Header
 regions[header_navigation] = Header nav

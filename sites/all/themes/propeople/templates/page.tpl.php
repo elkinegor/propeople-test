@@ -6,7 +6,37 @@
    * Complete documentation for this file is available online.
    * @see https://drupal.org/node/1728148
    */
-  ?>
+?>
+<header>
+  <div class="line1">
+    
+  </div>
+  <div class="line2">
+    
+  </div>
+  <div class="line3">
+    
+  </div>
+  
+</header>
+  <div id="main-wrapper">
+    <aside class="left">
+      
+    </aside>
+    <div id="main">
+      
+    </div>
+    <aside class="right">
+      
+    </aside>
+    
+  </div>
+<footer>
+  
+</footer>
+
+
+
 <div class="site-container col a-pad-0 page-name-homepage " id="siteContainer">
   <header id="masthead" class="site-header col a-pad-0 a-pad-top-2 m-pad-top-0 overflow-visible" role="banner">
     <div class="LaND-container center overflow-visible">
