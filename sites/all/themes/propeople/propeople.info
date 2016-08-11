@@ -1,0 +1,41 @@
+
+screenshot  = screenshot.png
+name        = Propeople theme
+description = 
+version = 1.0
+core = 7.x
+
+stylesheets[all][] = css/style.css
+
+scripts[] = js/script.js
+
+
+regions[header]          = Header
+regions[header_navigation] = Header nav
+regions[slider]          = Slider
+regions[content]         = Content
+regions[cont_centr]      = Container center
+regions[cont_bottom]     = Container bottom
+regions[form_bottom]     = Form bottom
+regions[pre_footer]      = Pre footer
+regions[footer_menu]     = Footer menu
+regions[copyright]       = Copyright
+regions[footer_right]    = Footer right
+regions[footer_bottom]   = Footer bottom
+regions[bottom]          = Page bottom
+regions[sidebar]         = Page sidebar fixed
+regions[sidebar_normal]  = Page sidebar normal
+
+
+regions[page_top]       = Page top
+regions[page_bottom]    = Page bottom
+
+
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = favicon
+features[] = main_menu
+features[] = secondary_menu
