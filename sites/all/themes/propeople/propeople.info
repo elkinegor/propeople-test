@@ -8,8 +8,8 @@ core = 7.x
 stylesheets[all][] = stylesheets/style.css
 scripts[] = js/script.js
 
-regions[header]          = Header
-regions[header_navigation] = Header nav
+regions[header_nav1] = Header nav first
+regions[header_nav2] = Header nav second
 regions[slider]          = Slider
 regions[content]         = Content
 regions[cont_centr]      = Container center

@@ -1,0 +1,20 @@
+header {
+	width:100%;
+	padding-top:19px;
+	.line1 {
+		width:949px;
+		margin:0px auto;
+		clear:both;
+		#logo-wrapper, #name-and-slogan {
+			float:left;
+		}
+		#first-nav-group {
+			float:right;
+		}
+		&:after {
+			content: "";
+			clear: both;
+			display: block;
+		}
+	}
+}

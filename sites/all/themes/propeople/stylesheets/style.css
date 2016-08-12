@@ -3,3 +3,50 @@ body {
   margin: 0px;
   width: 100%;
 }
+
+@font-face {
+  font-family: 'CopperplateGothic';
+  src: url("../fonts/CopperplateGothic-Bold.eot");
+  src: url("../fonts/CopperplateGothic-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/CopperplateGothic-Bold.woff") format("woff"), url("../fonts/CopperplateGothic-Bold.ttf") format("truetype"), url("../fonts/CopperplateGothic-Bold.svg#CopperplateGothic-Bold") format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+/* line 1, ../sass/_header.scss */
+header {
+  width: 100%;
+  padding-top: 19px;
+}
+/* line 4, ../sass/_header.scss */
+header .line1 {
+  width: 949px;
+  margin: 0px auto;
+  clear: both;
+}
+/* line 8, ../sass/_header.scss */
+header .line1 #logo-wrapper, header .line1 #name-and-slogan {
+  float: left;
+}
+/* line 11, ../sass/_header.scss */
+header .line1 #first-nav-group {
+  float: right;
+}
+/* line 14, ../sass/_header.scss */
+header .line1:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+/* line 1, ../sass/_text.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 5, ../sass/_text.scss */
+#site-name a {
+  font-family: 'CopperplateGothic';
+  font-weight: 700;
+  color: #131336;
+  line-height: 38px;
+  font-size: 18px;
+}
