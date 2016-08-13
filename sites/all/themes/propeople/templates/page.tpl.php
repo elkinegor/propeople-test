@@ -49,10 +49,14 @@
 
   </div>
   <div class="line2">
-    
+    <nav id="second-nav-group">
+      <?php print render($page['header_nav2']); ?>
+    </nav>
   </div>
   <div class="line3">
-    
+    <?php if ($breadcrumb): ?>
+      <div id="breadcrumb"><?php print $breadcrumb; ?></div>
+    <?php endif; ?>
   </div>
   
 </header>
