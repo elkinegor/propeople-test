@@ -1,0 +1,13 @@
+diff --git a/media_feeds.module b/media_feeds.module
+index 64b9084..41b7617 100644
+--- a/media_feeds.module
++++ b/media_feeds.module
+@@ -143,7 +143,7 @@ function media_feeds_set_target($source, $entity, $target, $values, $config = ar
+         if ($field_info['type'] == 'media') {
+           $allowed_schemes = $instance['widget']['settings']['allowed_schemes'];
+           if (in_array('public', $allowed_schemes)) {
+-            $fromurlschemes = media_variable_get('fromurl_supported_schemes');
++            $fromurlschemes = media__fromurl_supported_schemes;
+             foreach ($fromurlschemes as $fromurlscheme) {
+               $allowed_schemes[$fromurlscheme] = $fromurlscheme;
+             }
