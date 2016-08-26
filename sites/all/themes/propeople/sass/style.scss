@@ -1,7 +1,19 @@
 body {
 	margin:0px;
 	width:100%;
+	ul {
+		list-style:none;
+		margin:0px;
+		padding:0px;
+	}
+	h1,h2,h3,h4,h5 {
+		margin:0px;
+	}
+	#main .element-invisible {
+		display:none;
+	}
 }
+
 @import "fonts.scss";
 @import "header.scss";
 @import "aside.scss";

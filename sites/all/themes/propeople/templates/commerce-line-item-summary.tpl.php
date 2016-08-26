@@ -22,11 +22,14 @@
  */
 ?>
 <?php print $links; ?>
-<?php if ($quantity_raw): ?>
-<?php print t("You have"); ?>
-<span class="line-item-quantity-raw"> <?php print $quantity_raw; ?></span> <span class="line-item-quantity-label"><?php print $quantity_label; ?></span>
-<?php print t("in your cart"); ?>
-<?php endif; ?>
+<div id="cart-info">
+	<?php if ($quantity_raw): ?>
+	<?php print t("You have"); ?>
+	<span class="line-item-quantity-raw"> <?php print $quantity_raw; ?></span>
+	<span class="line-item-quantity-label"><?php print $quantity_label; ?></span>
+	<span class="line-item-quantity-label-last"><?php print t("in your cart"); ?></span
+	<?php endif; ?>
+</div>
 
 
   

@@ -54,31 +54,29 @@
     </nav>
   </div>
   <div class="line3">
-    <?php if ($breadcrumb): ?>
-      <div id="breadcrumb"><?php print $breadcrumb; ?></div>
-    <?php endif; ?>
+    <div class="line3-content">
+      <?php if ($breadcrumb): ?>
+        <div id="breadcrumb"><?php print $breadcrumb; ?></div>
+      <?php endif; ?>
+      <div id="print_link">
+        <a href="javascript:window.print()">
+          <?php print t("Print"); ?>
+        </a>
+      </div>
+    </div>
   </div>
   
 </header>
-  <div id="main-wrapper">
-    <aside class="left">
-      
-    </aside>
-    <div id="main">
-      <?php print $feed_icons; ?>
-      <?php print $messages; ?>
-      <?php print render($tabs); ?>
-      <?php print render($page['help']); ?>
-      <?php if ($action_links): ?>
-        <ul class="action-links"><?php print render($action_links); ?></ul>
-      <?php endif; ?>
-      <?php print render($page['content']); ?>
-    </div>
-    <aside class="right">
-      
-    </aside>
-    
-  </div>
+<div id="main">
+  <?php print $feed_icons; ?>
+  <?php print $messages; ?>
+  <?php print render($tabs); ?>
+  <?php print render($page['help']); ?>
+  <?php if ($action_links): ?>
+    <ul class="action-links"><?php print render($action_links); ?></ul>
+  <?php endif; ?>
+  <?php print render($page['content']); ?>
+</div>    
 <footer>
   
 </footer>
