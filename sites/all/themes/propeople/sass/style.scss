@@ -12,6 +12,9 @@ body {
 	#main .element-invisible {
 		display:none;
 	}
+	.inside {
+		margin:0px !important;
+	}
 }
 
 @import "fonts.scss";

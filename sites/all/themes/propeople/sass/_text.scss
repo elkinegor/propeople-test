@@ -114,3 +114,29 @@ ul.tabs a {
 	margin-right:15px; 
 }
 
+#main div.view.view-front-page-slider ul.slides div.inside .views-field-title span {
+    color: #fff;
+    font-size: 36px;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+#main div.view.view-front-page-slider ul.slides div.inside .views-field-field-description .field-content {
+    color: #fff;
+    font-size: 13px;
+    line-height: 18px;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+#main div.view.view-front-page-slider ul.slides div.inside .views-field-field-link a {
+    display: block;
+    color: #fff;
+    font-size: 13px;
+    font-family: Arial;
+    font-weight: bold;
+    padding-left: 20px;
+    background: url("../images/icon-see-more@2.png") left center no-repeat;
+    background-size: 14px 16px;
+}
+
